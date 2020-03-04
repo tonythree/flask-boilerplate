@@ -7,7 +7,7 @@ wsgi.py file is used by gunicorn.
 
 app.py file is changed to be used with restx
 
-#Run
+## Run
 First option: Run with python interpreter (only for debugging)
 ````
 python3 app.py --debug
