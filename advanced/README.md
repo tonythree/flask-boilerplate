@@ -15,5 +15,5 @@ python3 app.py --debug
 
 Second option: Run with gunicorn (used for production later)
 ````
-gunicorn --bind 0.0.0.0:8080 wsgi:application -w 1
+gunicorn --bind 0.0.0.0:5000 wsgi:application -w 1
 ````
